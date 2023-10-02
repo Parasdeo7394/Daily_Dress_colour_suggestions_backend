@@ -159,7 +159,7 @@ export const testController = (req,res) =>{
     res.send('protected Routes')
 };
 
-//update prfole
+//update profie
 export const updateProfileController = async (req, res) => {
     try {
       const { name, email, password, address, phone } = req.body;
